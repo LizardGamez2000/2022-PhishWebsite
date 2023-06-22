@@ -1,0 +1,393 @@
+/*The styles for the top navigation bar*/
+/*style for the general nav bar list*/
+.topnav {
+    background-color: #f0f0ef;
+}
+
+.topnav ul {
+    list-style-type: none;
+    line-height: 37px;
+    margin-left: 200;
+    padding: 0;
+}
+
+/*style for the list items*/
+.topnav li {
+    display: inline;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+/*style for the actual "content" of the nav bar*/
+.topnav li a {
+    text-decoration: none;
+    font-family: Oswald, sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 37px;
+    color: #966565;
+    padding: 15;
+}
+
+/*style for the "donate today" button*/
+.topnav li input {
+    background-color: #9ccc57;
+    font-size: 10px;
+    font-weight: 400;
+    color: #efffff;
+    width: 100px;
+    height: 25px;
+    border: 0px;
+    border-radius: 5px;
+    margin-left: 15;
+}
+
+.topnav li input:hover {
+    background-color: #6bc498;
+}
+
+/*the styles for the middle navigation bar*/
+/*style for "search" word*/
+.middlenav h3 {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 80;
+    font-family: Sanchez, serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #585850;
+    line-height: 24px;
+}
+
+/*general style for the dropdown menu*/
+.middlenav select {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 20;
+    padding-right: 15;
+}
+
+/*general style for the search bar*/
+.search {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 20;
+    line-height: 11px;
+}
+
+/*general style for the "GO" button*/
+.go {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 20;
+}
+
+.go input {
+    background-color: #ff4b40;
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 11px;
+    font-weight: 700;
+    line-height: 11px;
+    height: 25px;
+    border: 0px;
+    border-radius: 5px;
+}
+
+/*general style for the "MY ACCOUNT" button*/
+.account {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 20;
+    margin-left: 60;
+}
+
+.account input {
+    background-color: #ff4b40;
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 11px;
+    font-weight: 700;
+    line-height: 11px;
+    height: 25px;
+    border: 0px;
+    border-radius: 5px;
+}
+
+/*horizontal ruler style*/
+.middlenav hr {
+    width: 60%;
+}
+
+/*style for content nav bar*/
+
+.middlenav ul {
+    list-style-type: none;
+    line-height: 37px;
+    margin: 0;
+    padding-top: 10;
+    padding-bottom: 10;
+}
+
+.middlenav li {
+    display: inline;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.middlenav li a {
+    text-decoration: none;
+    font-family: Oswald, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 15px;
+    color: #333333;
+    padding: 15;
+}
+
+.middlenav li a:hover {
+    text-decoration: underline;
+    color: #ff4b40;
+}
+
+/*the styles for the content*/
+.content {
+    background-color: #ecece5;
+}
+
+/*ORL style*/
+.content h2 {
+    font-family: Oswald, sans-serif;
+    font-size: 34px;
+    font-weight: 300;
+    line-height: 42.5px;
+    color: #e7473d;
+    margin-right: 320;
+}
+
+/*Tagline style*/
+.content h4 {
+    background-color: #ff4b40;
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 15px;
+    height: 15px;
+    width: fit-content;
+    padding: 5;
+    border: 0px;
+}
+
+/*title formatting*/
+.content h3 {
+    font-family: Sanchez, serif;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 26.5px;
+    height: 15px;
+    width: fit-content;
+    padding: 0;
+    margin-left: 10;
+}
+
+/*description formatting*/
+.content p {
+    font-family: Arial, serif;
+    font-size: 11px;
+    font-weight: 700;
+    line-height: 16.5px;
+    height: 15px;
+    width: fit-content;
+    padding: 0;
+    margin-left: 10;
+}
+
+/*adding a box shadow*/
+.Kids {
+    display: inline-block;
+    background-color: ffffff;
+    box-shadow: 0px 5px 5px 0px #7a7a77;
+    margin: 5;
+}
+
+.Adults {
+    display: inline-block;
+    background-color: ffffff;
+    box-shadow: 0px 5px 5px 0px #7a7a77;
+    margin: 5;
+}
+
+.ReadListenWatch {
+    display: inline-block;
+    background-color: ffffff;
+    box-shadow: 0px 5px 5px 0px #7a7a77;
+    margin: 5;
+}
+
+.UsingTheLibrary {
+    display: inline-block;
+    background-color: ffffff;
+    box-shadow: 0px 5px 5px 0px #7a7a77;
+    margin: 5;
+}
+
+.WhatsHappening {
+    display: inline-block;
+    background-color: ffffff;
+    box-shadow: 0px 5px 5px 0px #7a7a77;
+    margin: 5;
+}
+
+/*image properties*/
+.content img {
+    width: 280;
+}
+
+/*the styles for the footer*/
+.footer {
+    background-color: #585850;
+}
+
+/*style for About Us List*/
+.AboutUs {
+    display: inline-block;
+    text-align: left;
+}
+
+.AboutUs a {
+    text-decoration: none;
+    font-family: Oswald, sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 14.3px;
+    color: white;
+    padding-left: 15;
+}
+
+.AboutUs a:hover {
+    text-decoration: underline;
+}
+
+.AboutUs ul {
+    list-style-type: none;
+    line-height: 37px;
+    margin: 0;
+    padding: 0;
+}
+
+.AboutUs li a {
+    text-decoration: none;
+    font-family: Oswald, sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 14.3px;
+    color: #9ca49c;
+    padding: 15;
+}
+
+.AboutUs li a:hover {
+    text-decoration: underline;
+}
+
+/*style for Careers List*/
+.Careers {
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 15;
+    text-align: left;
+}
+
+.Careers a {
+    text-decoration: none;
+    font-family: Oswald, sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 14.3px;
+    color: white;
+    padding-left: 15;
+}
+
+.Careers a:hover {
+    text-decoration: underline;
+}
+
+.Careers ul {
+    list-style-type: none;
+    line-height: 37px;
+    margin: 0;
+    padding: 0;
+}
+
+.Careers li a {
+    text-decoration: none;
+    font-family: Oswald, sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 14.3px;
+    color: #9ca49c;
+    padding: 15;
+}
+
+.Careers li a:hover {
+    text-decoration: underline;
+}
+
+/*style for Contact Us section*/
+.ContactUs {
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 50;
+    text-align: left;
+}
+
+.ContactUs a {
+    text-decoration: none;
+    font-family: Oswald, sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 14.3px;
+    color: white;
+    padding-left: 15;
+}
+
+.ContactUs a:hover {
+    text-decoration: underline;
+}
+
+.ContactUs ul {
+    list-style-type: none;
+    line-height: 37px;
+    margin: 0;
+    padding: 0;
+}
+
+.ContactUs li a {
+    text-decoration: none;
+    font-family: Oswald, sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 14.3px;
+    color: #9ca49c;
+    padding: 15;
+}
+
+.ContactUs li a:hover {
+    text-decoration: underline;
+}
+
+/*horizontal ruler style*/
+.footer hr {
+    width: 60%;
+}
+
+/*copyright style*/
+.footer p {
+    font-family: Oswald, sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 14.3px;
+    color: white;
+    padding-left: 300;
+    text-align: left;
+}
